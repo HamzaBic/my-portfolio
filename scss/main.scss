@@ -29,7 +29,7 @@ h3 {
   &.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: lighten($primary-color, $amount: 2);
+    background: lighten($background-color, $amount: 1.5);
   }
 }
 
@@ -45,7 +45,7 @@ header {
 }
 
 .text-secondary {
-  color: $secondary-color;
+  color: $primary-color;
 }
 
 main {

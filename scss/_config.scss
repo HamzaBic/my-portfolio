@@ -1,7 +1,8 @@
-$primary-color: #444;
-$secondary-color: #2a90cc;
+$primary-color: #ADD7F6;
+$secondary-color: #3B28CC;
+$background-color: #031927;
 $show-home-image: true;
-$home-image: url(../img/tagsWithCodejpg.jpg);
+$home-image: url(../img/pc.jpg);
 $background-opacity: 0.7;
 
 @mixin easeOut {
@@ -23,7 +24,7 @@ $background-opacity: 0.7;
         width: 100%;
         height: 100%;
         z-index: -1;
-        background: rgba($primary-color, $background-opacity);
+        background: rgba($background-color, $background-opacity);
       }
     }
   }
