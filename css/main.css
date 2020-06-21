@@ -61,7 +61,8 @@
       border: solid 3px #3B28CC; }
       .menu-branding .portrait:hover {
         opacity: 10;
-        transform: scale(1.2); }
+        transform: scale(1.2);
+        transition: all 0.5s ease-out; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
@@ -168,6 +169,7 @@ main {
 #about,
 #work,
 #contact {
+  background: url(../img/backgrounds/dark-paths.png);
   background-color: #05283f; }
 
 .about-info {
@@ -187,9 +189,10 @@ main {
     grid-area: bio;
     font-size: 1.5rem; }
   .about-info .job {
-    background-color: #4936d8;
+    background-color: #c4e2f9;
     padding: 0.5rem;
-    border-bottom: #ADD7F6 3px solid; }
+    border-bottom: #3B28CC 3px solid;
+    color: #000; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
